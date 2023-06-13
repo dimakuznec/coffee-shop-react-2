@@ -1,0 +1,28 @@
+/* Menu */
+.menu-wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 36px;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 48%;
+    padding: 24px;
+    border: 1px solid #32323D;
+}
+.menu__img {
+    width: 72px;
+    height: 72px;
+}
+.menu__title {
+    font: 24px/30px 'Righteous', cursive;
+}
+.menu__price {
+    display: block;
+    margin-left: auto;
+    color: #C99E71;
+    font-size: 18px;
+}

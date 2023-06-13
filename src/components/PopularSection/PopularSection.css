@@ -1,0 +1,71 @@
+/* Popular */
+.popular-wrap {
+    display: flex;
+    justify-content: space-between;
+    gap: 36px;
+    margin-bottom: 56px;
+}
+.popular {
+    padding: 48px 48px 40px 48px;
+    background-color: #121315;
+    text-align: center;
+    text-transform: lowercase;
+}
+.popular__img {
+    display: block;
+    margin-bottom: 36px;
+}
+.rating {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    color: #C99E71;
+}
+.rating__title {
+    font-weight: 500;
+}
+.rating__list {
+    display: flex;
+    justify-content: space-between;
+    gap: 7px;
+}
+.rating__item {
+    font-size: 16px;
+    line-height: 26px;
+}
+.popular__title {
+    margin: 12px 0 20px;
+    font: 24px/30px 'Righteous', cursive;
+}
+.popular__price {
+    display: block;
+    font-size: 18px;
+    font-weight: 600;
+}
+.popular__price_dark {
+    color: #C99E71;
+    font: 400 18px 'Inter', Arial, Helvetica, sans-serif;
+}
+.popular__btn {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 170px;
+    margin: 38px auto 0;
+    padding: 13px 0;
+    font: 600 18px/22px 'Urbanist', Arial, Helvetica, sans-serif;
+    text-transform: none;
+}
+.popular:hover .rating,
+.popular:hover .popular__price {
+    display: none;
+}
+.popular:hover .popular__btn {
+    display: flex;
+}
+.popular__link {
+    display: block;
+    width: 272px;
+    margin: 0 auto;
+}

@@ -1,0 +1,49 @@
+/* Banner */
+#banner-section {
+    background: url(./../../img/banner.jpg) 50% 0%/cover no-repeat;
+}
+.banner {
+    display: flex;
+    justify-content: space-between;
+    padding: 147px 0 158px;
+}
+.banner-info {
+    max-width: 530px;
+}
+.banner__header {
+    font: 72px/94px 'Righteous', cursive;
+}
+.banner__text {
+    margin: 32px 0 64px;
+    font-size: 20px;
+    line-height: 36px;
+    opacity: 0.8;
+    text-transform: capitalize;
+}
+.banner__btn {
+    padding: 24px 40px;
+}
+.banner-video__btn {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    align-self: flex-end;
+    height: 110px;
+    font: 400 16px 'Inter', Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+.banner-video__btn:hover {
+    color: #C99E71;
+}
+.banner-video__btn::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 50%;
+    width: 66px;
+    height: 66px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    background: url(./../../img/play.svg) 50%/14px 18px no-repeat;
+    transform: translateX(-50%);
+}
